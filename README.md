@@ -6,7 +6,6 @@ VoiceToTextTranslator is a Python-based project that translates English voice in
 
 - Translates spoken English into text in any specified language.
 - Supports a wide range of languages for translation.
-- Converts translated text to speech and saves it as an audio file.
 
 ## Requirements
 
@@ -54,9 +53,6 @@ Here's an example of how the script works:
 
 Contributions are welcome! Please create an issue or submit a pull request for any feature requests, bug fixes, or improvements.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Acknowledgements
 
