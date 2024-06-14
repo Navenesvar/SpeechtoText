@@ -1,63 +1,41 @@
 # VoiceToTextTranslator
 
-VoiceToTextTranslator is a Python-based project that translates English voice input into text output in various languages. This project utilizes libraries such as `googletrans`, `speech_recognition`, `pyaudio`, and `gtts` to achieve this functionality.
+## Overview
+
+VoiceToTextTranslator is a web-based application that allows users to input voice in English and get the translated text in various languages. The application is built using Django for the backend and provides a user-friendly interface for recording and translating voice.
 
 ## Features
 
-- Translates spoken English into text in any specified language.
-- Supports a wide range of languages for translation.
+- Voice input using the microphone
+- Translation of voice input to text in multiple languages
+- User-friendly web interface
+- Supports various languages including Tamil, Spanish, French, and more
 
-## Requirements
+## Technologies Used
 
-- Python 3.x
-- `googletrans`
-- `speech_recognition`
-- `pyaudio`
-- `gtts`
-- `playsound`
+- Python
+- Django
+- SpeechRecognition
+- Googletrans
+- gTTS (Google Text-to-Speech)
+- HTML, CSS, JavaScript (for the frontend)
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/VoiceToTextTranslator.git
-    cd VoiceToTextTranslator
-    ```
-
-2. Install the required Python packages:
-    ```bash
-    pip install googletrans==4.0.0-rc1 speechrecognition pyaudio gtts playsound
-    ```
-
-## Usage
-
-1. Run the script:
-    ```bash
-    python translate.py
-    ```
-
-2. Follow the prompt to speak into your microphone. The script will capture your voice, translate it into the specified language, and output the translated text.
-
-## Example
-
-Here's an example of how the script works:
-
-1. When prompted, speak the following sentence: "Your attention please train number 12634 Kanyakumari Express will leave from platform number 1 at 17:20 thank you."
-2. The script captures your voice, transcribes it to text, translates the text to Tamil (or any specified language), and outputs:
-    ```text
-    உங்கள் கவனத்திற்கு 12634 கன்னியாகுமரி எக்ஸ்பிரஸ் இயங்குதள எண் 1 இலிருந்து 17:20 மணிக்கு புறப்படும்
-    ```
-3. The translated text is also converted to speech and saved as `output.mp3`.
-
-## Contributing
-
-Contributions are welcome! Please create an issue or submit a pull request for any feature requests, bug fixes, or improvements.
-
-
-## Acknowledgements
-
-- [Googletrans](https://py-googletrans.readthedocs.io/en/latest/) for language translation.
-- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for voice recognition.
-- [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/) for accessing the microphone.
-- [gTTS](https://pypi.org/project/gTTS/) for converting text to speech.
-- [IPython.display.Audio](https://ipython.readthedocs.io/en/stable/api/generated/IPython.display.html#IPython.display.Audio) for audio playback.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Navenesvar/VoiceToTextTranslator.git
+   cd VoiceToTextTranslator
+2. ** Create a virtual environment**
+   ```bash
+    python -m venv venv
+    venv\Scripts\activate  # On Windows
+    source venv/bin/activate  # On macOS/Linux
+3. ** Run migrations **
+   ```bash
+       python manage.py migrate
+4. ** Run the server **
+   ```bash
+       python manage.py runserver
+5. ** Access the application:**
+### Open your web browser and navigate to http://localhost:8000
