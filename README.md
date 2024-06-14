@@ -26,16 +26,17 @@ VoiceToTextTranslator is a web-based application that allows users to input voic
    ```bash
    git clone https://github.com/Navenesvar/VoiceToTextTranslator.git
    cd VoiceToTextTranslator
-2. ** Create a virtual environment**
+2. **Create a virtual environment**
    ```bash
     python -m venv venv
     venv\Scripts\activate  # On Windows
     source venv/bin/activate  # On macOS/Linux
-3. ** Run migrations **
+3. **Run migrations**
    ```bash
        python manage.py migrate
-4. ** Run the server **
+4. **Run the server**
    ```bash
        python manage.py runserver
-5. ** Access the application:**
-### Open your web browser and navigate to http://localhost:8000
+5. **Access the application:**
+   ```bash
+    Open your web browser and navigate to http://localhost:8000
