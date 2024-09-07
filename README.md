@@ -1,8 +1,8 @@
-# VoiceToTextTranslator
+# SpeechToText
 
 ## Overview
 
-VoiceToTextTranslator is a web-based application that allows users to input voice in English and get the translated text in various languages. The application is built using Django for the backend and provides a user-friendly interface for recording and translating voice.
+SpeechToText is a web-based application that allows users to input voice in English and get the translated text in various languages. The application is built using Django for the backend and provides a user-friendly interface for recording and translating the input words.
 
 ## Features
 
